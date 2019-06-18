@@ -28,6 +28,7 @@ function App() {
           <Project projectName="/landing-page-ipfs" projectUrl="https://github.com/ericnam/landing-page-ipfs" projectDescription={landingPageIPFSDescription()} />
           <Project projectName="/nam-landing" projectUrl="https://github.com/ericnam/nam-landing" projectDescription={landingPageDescription()} />
 
+          <br />
           <p>And many more to come!</p>
         </div>
     </div>
@@ -37,15 +38,10 @@ function App() {
 function landingPageIPFSDescription () {
   return (
     <div>
-      <span className="technologies">
-        <img src="/img/react.png"/>
-        <img src="/img/ipfs.png"/>
-        <img className="cloudflare" src="/img/cloudflare.png"/>
-      </span>
       <h3 className="unbold">
         This website is hosted on IPFS via Cloudflare's IPFS gateway. 
       </h3>
-      <h3>No central server required! How awesome is that?</h3>
+      <h3>No central server required!</h3>
     </div>
   );
 }
@@ -53,15 +49,11 @@ function landingPageIPFSDescription () {
 function landingPageDescription () {
   return (
     <div>
-      <span className="technologies">
-        <img src="/img/react.png"/>
-        <img src="/img/node.png"/>
-      </span>
       <h3 className="unbold">
         There's still love for traditional web dev. This one untilizes Node and React, hosted on FastComet.
       </h3>
       <h3 className="unbold">
-        Added SendGrid email integration as well for any who may want to reach out.
+        I added SendGrid integration as well for those who may want to reach out.
       </h3>
     </div>
   );
