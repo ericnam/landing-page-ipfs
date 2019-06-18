@@ -1,0 +1,84 @@
+body {
+  background-color: #FFFBF6;
+  margin: 0 35px;
+}
+.content {
+  max-width: 680px;
+  margin: 0 auto;
+}
+h1, h2, h3 {
+  float: left;
+}
+
+.primary-color {
+  color: #5737FF;
+}
+
+
+.intro header {
+  margin: 100px 0 50px;
+}
+.intro header h1 {
+  margin: 10px 0 10px;
+}
+.unbold {
+  font-weight: lighter;
+}
+
+
+
+.intro .github {
+  margin: 50px 0;
+  float: left;
+}
+.intro .github p {
+  float: left;
+  margin: 10px 0 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5737FF;
+}
+.intro .github img {
+  height: 50px;
+  border-radius: 25px;
+  float: left;
+}
+
+
+.projects {  
+  margin: 80px 0 0 0;
+  float: left;
+  width:100%;
+}
+.projects header {
+  float: left;
+  width:100%;
+}
+.projects header h2 {
+  margin: 0;
+}
+.projects hr {
+  float:left;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
+.projects .project header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5737FF;
+}.projects .project header a:hover {
+  color: #2900FF;
+  text-decoration: underline;
+}
+
+.projects .project .sub-header{
+  width: 100%;
+  /* margin: 55px 0 10px 0; */
+  float: left;
+}
+.projects .project .sub-header h3 {
+  margin: 0;
+}
