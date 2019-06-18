@@ -13,10 +13,14 @@ h1, h2, h3 {
 .primary-color {
   color: #5737FF;
 }
+.secondary-color {
+  color: #FF8E00;
+}
 
 
 .intro header {
-  margin: 100px 0 50px;
+  margin: 100px 0 60px;
+  float: left;
 }
 .intro header h1 {
   margin: 10px 0 10px;
@@ -27,19 +31,28 @@ h1, h2, h3 {
 
 
 
-.intro .github {
-  margin: 50px 0;
+.profile-chiclet {
+  margin: 10px 15px 10px 0;
   float: left;
+  background-color: #E8E4FF;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 35px -13px #C5BAFF;
+  transition: 0.8s;
 }
-.intro .github p {
+.profile-chiclet:hover{
+  opacity: 0.7;
+  transition: 0.8s;
+}
+.profile-chiclet p {
   float: left;
-  margin: 10px 0 10px 15px;
+  margin: 8px 0 8px 15px;
   text-decoration: none;
   font-weight: bold;
   color: #5737FF;
 }
-.intro .github img {
-  height: 50px;
+.profile-chiclet img {
+  height: 40px;
   border-radius: 25px;
   float: left;
 }
@@ -65,6 +78,10 @@ h1, h2, h3 {
   background: #999;
 }
 
+.projects .project {
+  margin: 0 0 40px 0;
+  float: left;
+}
 .projects .project header a {
   text-decoration: none;
   font-weight: bold;
@@ -76,9 +93,20 @@ h1, h2, h3 {
 
 .projects .project .sub-header{
   width: 100%;
-  /* margin: 55px 0 10px 0; */
   float: left;
 }
 .projects .project .sub-header h3 {
   margin: 0;
+}
+.projects .project .sub-header .technologies {
+  width: 100%;
+  margin: 0 auto;
+}
+.projects .project .sub-header .technologies img {
+  height: 40px;
+  margin: 10px;
+}
+.projects .project .sub-header .technologies img.cloudflare {
+  height: 25px;
+  margin: 15px;
 }
